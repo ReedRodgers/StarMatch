@@ -19,4 +19,9 @@ The find institution tab will help researchers find institutions suitable for th
 This Tab will take a list of equipment, and a number of projects (or sort by number of projects??) and return universities that match.
 
 Find Object:
-The find object tab will help researchers and amateur astronomers find objects 
+The find object tab will help researchers and amateur astronomers find objects to study
+This tab will take in a set of object attributes (constellation, type, magnitude) to pull up all matching objects
+
+Locate Planet:
+The locate planet tab will identify the home star and constellation of a given planet.
+This will take in the name of a planet, and find it's home star and constellation.
