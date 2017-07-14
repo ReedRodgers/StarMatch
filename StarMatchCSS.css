@@ -1,0 +1,10 @@
+/*
+Selected page: 003366
+Background:660f57
+Unselected tab: 5b7290
+Border: E7ebf0
+ */
+#tabs { margin: 3em 0 0 0; }
+#tabs li {display: inline; width: 100px; }
+#tabs a {padding: 5px 10px 5px 10px; border: 2px solid #E7ebf0}
+#tabs li.selected a {color: #003366; background-color: #660f57 ;}
