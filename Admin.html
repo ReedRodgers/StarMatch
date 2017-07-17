@@ -7,17 +7,54 @@
 </head>
 <body>
     <ul id="tabs">
-        <li.selected><a href="Home.html">Home</a></li.selected>
-        <li><a href="Admin.html">Admin</a></li>
-        <li><a href="Find Rresearcher.html">Find Researcher</a></li>
-        <li><a href="Find Institution.html">Find Institution</a></li>
-        <li><a href="Find Object.html">Find Object</a></li>
-        <li><a href="Find Rresearcher.html"></a></li>
+        <li><a href="Home.html">Home</a></li>
+        <li.selected><a href="Admin.html">Admin</a></li.selected>
+        <li><a href="Find%20Researcher.html">Find Researcher</a></li>
+        <li><a href="Find%20Institution.html">Find Institution</a></li>
+        <li><a href="Find%20Object.html">Find Object</a></li>
+        <li><a href="Locate%20Planet.html">Locate Planet</a></li>
     </ul>
+    <h1>Here you can update the database as necessary.</h1>
     <p>
-        Here you can update the database as necessary.
         If there is any out of date informtation, you can take the intiative to
         updete it. If you knowingly submit false information you will be swiftly executed.
     </p>
+    <h1>Add</h1>
+    <h2>Add Researcher</h2>
+    <form>
+        <label for="RName">Researcher Name</label>
+        <input type="text" id="RName"><br>
+        <label for="RSalary">Salary</label>
+        <input type="number" id="RSalary"><br>
+        <input type="submit"><br>
+    </form>
+    <h2>Add Project</h2>
+    <form>
+        <label for="Prid">RID:</label>
+        <input type="text" id="Prid"><br>
+        <label for="Poid">OID:</label>
+        <input type="text" id="Poid"><br>
+        <label for="Pname">Project Name</label>
+        <input type="text" id="PName"><br>
+        <label for="Purpose">Purpose:</label>
+        <input type="text" id="Purpose"><br>
+        <input type="submit"><br>
+    </form><br><br><br>
+    <h1>Update</h1>
+    <h2>Change Jobs</h2>
+    <form>
+        <label for="Urid">Researcher</label>
+        <input type="text" id="Urid"><br>
+        <label for="Uiid">Institution</label>
+        <input type="text" id="Uiid"><br>
+        <input type="submit">
+    </form><br><br><br>
+    <h1>Delete</h1><br>
+    <h2>Delete Researcher</h2>
+    <form>
+        <label for="Drid">RID:</label>
+        <input type="text" id="Drid"><br>
+        <input type="submit">
+    </form>
 </body>
 </html>
